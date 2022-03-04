@@ -1,0 +1,32 @@
+div{
+    min-height: 130px;
+    border: solid white 3px;
+}
+#blue{
+    background-color: #0859D4;
+    height: 130px;
+}
+#red{
+    background-color: #8E1308;
+    height: 130px;
+}
+#black{
+    background-color: #000;
+    min-height: 350px;
+}         
+#yellow{
+    background-color: #D4A508;
+    min-height: 350px;
+}
+#green{
+    background-color: #086F08;
+    height: 130px;
+}
+@media screen and ( max-width : 576px ){
+    #blue, #red{
+        height:70px;
+    }
+    #black{
+        height: 370px;
+    }
+}
