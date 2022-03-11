@@ -5,50 +5,65 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Portfolio using HTML, CSS, JS and Bootstrap">
         <meta name="author" content="Herbert Nícolas">
-        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
-        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
         <!-- <link rel="stylesheet" href="style.css"> -->
         <title>Herbert Nícolas · Portfolio</title>
         <style type="text/css">
             html{
-                font-family: sans serif;
+                
             }
+            
             div{
-                /* border: solid black 1px; */
+                border: solid black 1px;
             }
+
             #border{
                 width:100%;
                 height: 100vh;
                 border: solid black 1px;
                 border-radius: 28px;
             }
+
             #dados{
                 align-items: center;
                 text-align: right;
                 padding-left: 100px;
-                padding-right: 100px;
+                padding-right: 100px;                
             }
+            
+            #textocv{
+                font-size: 15px;
+                text-align: center;
+                border: solid black 1px;
+            }
+            span{
+               font-size:20px;
+            }
+            
         </style>
     </head>
     <body>
         
         <div class="container" id="border">    
             <div class="row" id="dados">
-                    <div class="col-sm-3" id="fotoPerfil">
-                        <img src="/portfolio-alpha/img/foto-perfil.jpg" alt="" class="img-thumbnail">
-                    </div>
-                    <div class="col-sm-9" id="textocv">
-                        <h1>Herbert Nícolas</h1>
-                        <h2>27 anos</h2>
-                        <h2>Recife-PE</h2>
-                        <h2>Graduando em Ciência da Computação - UFPE</h2>
-                    </div>
+                <div class="col-sm-3" id="fotoPerfil">
+                    <img src="/img/foto-perfil.jpg" alt="" class="img-thumbnail">
+                </div>
+                <div class="col-sm-9" id="textocv">
+                    <h1>Herbert Nícolas</h1>
+                    <p><span>27 years</span></p>
+                    <p>Recife-PE</p>
+                    <p>Graduating in Computer Science - UFPE</p>
+                </div>    
+            </div>
+            <div class="container" id="other">
+                <div class="row" id="outros">
+                    <div class="col-sm-6" id="social">SOCIAL MEDIA</div>
+                    <div class="col-sm-6"id="skills">SKILLS</div>
+                </div>
             </div>
         </div>
-        <div class="container">
-
-        </div>
-        <div class="container"></div>
     </body>
 </html>
